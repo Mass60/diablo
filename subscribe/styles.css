@@ -1,0 +1,77 @@
+*::-webkit-scrollbar{
+  display: none;
+  scrollbar-width: none;
+}
+body{
+  margin: 0px;
+}
+.signup {
+  text-align: center;
+  font-family: "times new roman", serif;
+  margin-top: 20VH;
+  background-color: #897d6b;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-style: outset;
+  border-color: #897d6b;
+}
+html {
+  background-image: url(https://media.moddb.com/cache/images/mods/1/47/46670/thumb_620x2000/Diablo_Game_20200711_191343.png);
+  background-size: cover;
+}
+/*navbar*/
+ul{
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: red solid 2vh;
+}
+
+li{
+  float: left;
+}
+
+li .link{
+  display: block;
+  color: rgb(255, 200, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li .link:hover{
+  background-color: #111;
+  color: red;
+}
+.logobox{
+  float: right;
+}
+.logobox{
+  height: 46px;
+}
+.logoimg{
+  
+  height: 100%;
+}
+footer{
+  background-color: red;
+  height: 10vh;
+  font-size: 20px;
+}
+h5{
+  color: black;
+  margin-left: 1%;
+  margin-top: 0;
+  padding-top: 2vh;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: auto;
+}

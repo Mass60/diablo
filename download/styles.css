@@ -1,0 +1,76 @@
+body{
+  margin: 0px;
+}
+p{
+  color:grey;
+  margin-top:225px;
+  margin-left:400px;
+  margin-right:400px;
+  background-color:#880808;
+  text-align:center;
+  border-color:#e3dac9;
+  border-style:solid;
+  border-width:5px;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image:url(https://images.pcgamingwiki.com/8/81/Diablo_Cover_Cropped_%282019%29.png);
+  background-size:cover;
+}
+
+.button{
+  Border-style:Hidden;
+  Padding-right:0px;
+  padding-left:0px;
+  background-color:#880808;
+}
+/*navbar*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: red solid 2vh;
+}
+
+li{
+  float: left;
+}
+
+li .link{
+  display: block;
+  color: rgb(255, 200, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li .link:hover{
+  background-color: #111;
+  color: red;
+}
+.logobox{
+  float: right;
+}
+.logobox{
+  height: 46px;
+}
+.logoimg{
+  
+  height: 100%;
+}
+footer{
+  margin-bottom: 0%;
+  margin-top: auto;
+  background-color: red;
+  height: 10vh;
+  font-size: 20px;
+}
+h5{  
+  color: black;
+  margin-left: 1%;
+  margin-top: 0;
+  padding-top: 2vh;
+}
